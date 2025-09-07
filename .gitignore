@@ -1,29 +1,29 @@
-@'
-# Build + caches
+# === Gradle caches and build output ===
 .gradle/
 build/
 out/
-run/
-classes/
-bin/
-.remapped/
-.remapCache/
-loom-cache/
 
-# IDE
+# === Loom / dev runtime ===
+run/
+.remapped/
+.remap/
+.cache/
+loom-cache/
+.fabric/
+
+# === IDEs ===
 .idea/
 *.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
 .vscode/
 
-# OS junk
+# === OS junk ===
 .DS_Store
 Thumbs.db
 
-# Logs
+# === Logs ===
 *.log
-
-# Keep the Gradle wrapper files!
-# (include gradlew, gradlew.bat, gradle/wrapper/**)
-'@ | Set-Content -Encoding UTF8 .gitignore
-
-
