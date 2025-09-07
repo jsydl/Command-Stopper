@@ -1,32 +1,29 @@
-cd C:\Users\Qaish\Desktop\CommandStopper
-
 @'
-# --- Build + IDE junk ---
+# Build + caches
 .gradle/
 build/
 out/
 run/
 classes/
 bin/
+.remapped/
+.remapCache/
+loom-cache/
 
 # IDE
 .idea/
 *.iml
 .vscode/
 
-# OS
+# OS junk
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Minecraft dev
-.remapped/
-.remapCache/
-loom-cache/
-
-# Keep Gradle wrapper!
-# (do NOT ignore gradlew, gradlew.bat, and gradle/wrapper/**)
+# Keep the Gradle wrapper files!
+# (include gradlew, gradlew.bat, gradle/wrapper/**)
 '@ | Set-Content -Encoding UTF8 .gitignore
+
 
