@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.cbe.mixin",
+  "server": [
+    "CommandBlockBlockEntityMixin"
+  ],
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "commandblocks-enabled-gamerule-refmap.json"
+}

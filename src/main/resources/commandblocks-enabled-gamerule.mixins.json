@@ -1,0 +1,12 @@
+﻿{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.cbe.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandBlockBlockEntityMixin"
+  ],
+  "client": [],
+  "injectors": { "defaultRequire": 1 },
+  "refmap": "commandblocks-enabled-gamerule-refmap.json"
+}

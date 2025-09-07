@@ -1,0 +1,25 @@
+﻿{
+  "schemaVersion": 1,
+  "id": "commandblocks-enabled-gamerule",
+  "version": "1.0.0",
+  "name": "Command Stopper",
+  "description": "Adds a gamerule to enable or disable command block execution.",
+  "icon": "assets/commandblocks-enabled-gamerule/icon.png",
+  "authors": [
+    "jsydl"
+  ],
+  "contact": {
+    "Modrinth": "https://modrinth.com/mod/command-stopper"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": [ "com.example.cbe.CommandBlocksEnabledMod" ] },
+  "mixins": [
+    "commandblocks-enabled-gamerule.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.8",
+    "java": ">=21"
+  }
+}
