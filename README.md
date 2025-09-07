@@ -1,6 +1,6 @@
 # Command Stopper
 
-A small Fabric server and client mod for Minecraft **1.21.8** that lets you enable/disable command blocks:
+A small Fabric server and client mod for Minecraft **1.21.8+** that lets you enable/disable command blocks:
 
 - `/gamerule commandBlocksEnabled true` — enable command blocks.
 - `/gamerule commandBlocksEnabled false` — disable command blocks
