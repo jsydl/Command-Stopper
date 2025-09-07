@@ -1,4 +1,4 @@
-Use /gamerule commandBlocksEnabled false to disable and /gamerule commandBlocksEnabled true to enable. To download either go to /build/libs/ and download commandblocks-enabled-gamerule-1.0.0.jar or go to https://modrinth.com/mod/command-stopper. 
+Use /gamerule commandBlocksEnabled false to disable and /gamerule commandBlocksEnabled true to enable. To download either go to https://modrinth.com/mod/command-stopper. Or build it yourself by downloading the file then open Powershell and type "cd '"YOUR FOLDER DIRECTORY"'" then typing ".\gradlew build"
 
 Only for Fabric 1.21.8+
 
